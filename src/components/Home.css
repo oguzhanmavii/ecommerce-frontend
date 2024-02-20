@@ -1,0 +1,57 @@
+/* Home.css */
+
+.home-container {
+  padding: 20px; /* İçeriğin kenar boşlukları */
+  text-align: center;
+  height:915px;
+  background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20220522/pngtree-ecommerce-banner-planning-segmentation-selection-image_1375247.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;  
+}
+  
+  .products-container {
+    margin-top: 100px;
+  }
+  
+  .product-list {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+  }
+  
+  .product-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+  }
+  
+  .product-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .product-info {
+    margin-top: 10px;
+  }
+
+  .product-image {
+    width: 50px;
+    height: 250px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
